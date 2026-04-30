@@ -10,7 +10,7 @@ public class DemoApplication {
 
 	private static final String GITHUB_TOKEN = "ghp_1A2b3C4d5E6f7G8h9I0jK1lM2nO3pQ4rS5tU";
 
-	@GetMapping("/")
+	@GetMapping("Gitlab Spring App")
 	String home() {
 		return "Spring is here!";
 	}
